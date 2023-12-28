@@ -7,6 +7,7 @@ export default defineConfig({
 		sveltekit(),
 		SvelteKitPWA({
 			manifest: {
+				id: '/pwa6/',
 				name: 'pwa6-n',
 				short_name: 'pwa6-s',
 				description: 'pwa #6',
