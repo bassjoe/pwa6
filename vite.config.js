@@ -31,7 +31,4 @@ export default defineConfig({
 			registerType: 'autoUpdate',
 		})
 	],
-	build: {
-        minify: false
-    }
 });
