@@ -1,6 +1,7 @@
 <script>
     import { onMount } from "svelte";
     import { pwaInfo } from "virtual:pwa-info";
+    import Header from "$lib/components/Header.svelte";
 
     onMount(async () => {
         if (pwaInfo) {
@@ -30,6 +31,7 @@
     {@html webManifest}
 </svelte:head>
 
+<Header />
 <main>
     <slot />
 </main>
